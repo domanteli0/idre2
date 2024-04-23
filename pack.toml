@@ -1,0 +1,10 @@
+[custom.all.idre2]
+type = "local"
+path = "."
+ipkg = "idre2.ipkg"
+test = "test/test.ipkg"
+
+[custom.all.idre2-test]
+type = "local"
+path = "test"
+ipkg = "test.ipkg"

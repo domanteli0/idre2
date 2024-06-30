@@ -1,0 +1,38 @@
+2024-04-24 14:56:10,189 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-04-24 14:56:10,206 INFO o.a.j.JMeter: Loading user properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/user.properties
+2024-04-24 14:56:10,206 INFO o.a.j.JMeter: Loading system properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/system.properties
+2024-04-24 14:56:10,210 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2024-04-24 14:56:10,210 INFO o.a.j.JMeter: Version 5.6.3
+2024-04-24 14:56:10,210 INFO o.a.j.JMeter: java.version=21.0.2
+2024-04-24 14:56:10,210 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2024-04-24 14:56:10,210 INFO o.a.j.JMeter: os.name=Mac OS X
+2024-04-24 14:56:10,211 INFO o.a.j.JMeter: os.arch=aarch64
+2024-04-24 14:56:10,211 INFO o.a.j.JMeter: os.version=14.4.1
+2024-04-24 14:56:10,211 INFO o.a.j.JMeter: file.encoding=UTF-8
+2024-04-24 14:56:10,211 INFO o.a.j.JMeter: java.awt.headless=null
+2024-04-24 14:56:10,211 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-04-24 14:56:10,211 INFO o.a.j.JMeter: Available Processors =8
+2024-04-24 14:56:10,218 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-04-24 14:56:10,218 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-04-24 14:56:10,218 INFO o.a.j.JMeter: JMeterHome=/opt/homebrew/Cellar/jmeter/5.6.3/libexec
+2024-04-24 14:56:10,218 INFO o.a.j.JMeter: user.dir  =/Users/domantelio/Projects/idre2
+2024-04-24 14:56:10,218 INFO o.a.j.JMeter: PWD       =/Users/domantelio/Projects/idre2
+2024-04-24 14:56:10,220 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: Domantelios-MacBook-Pro.local FullName: localhost
+2024-04-24 14:56:10,230 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2024-04-24 14:56:10,582 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2024-04-24 14:56:11,931 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-24 14:56:12,026 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-24 14:56:12,124 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=mac_os_x-ae86fca7c21b5815df08cf730b00fdba-gui
+2024-04-24 14:56:13,803 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=1.9, jmeter-core=5.6.3, jmeter-ftp=5.6.3, jmeter-http=5.6.3, jmeter-jdbc=5.6.3, jmeter-jms=5.6.3, jmeter-junit=5.6.3, jmeter-java=5.6.3, jmeter-ldap=5.6.3, jmeter-mail=5.6.3, jmeter-mongodb=5.6.3, jmeter-native=5.6.3, jmeter-tcp=5.6.3, jmeter-components=5.6.3]
+2024-04-24 14:56:13,804 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-plugins-manager]
+2024-04-24 14:56:24,817 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-04-24 14:56:24,818 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-04-24 14:56:24,818 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-04-24 14:56:24,820 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2024-04-24 14:56:24,820 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2024-04-24 14:56:24,866 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-24 14:56:24,869 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-04-24 14:56:24,893 INFO o.a.j.e.StandardJMeterEngine: No enabled thread groups found
+2024-04-24 14:56:24,893 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-04-24 14:56:24,895 INFO o.a.j.s.FileServer: Default base='/Users/domantelio/Projects/idre2'
+2024-04-24 14:56:24,895 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
